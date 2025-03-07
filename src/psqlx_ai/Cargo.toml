@@ -1,0 +1,16 @@
+[package]
+name = "psqlx_ai"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "psqlx_ai"
+crate-type = ["rlib"]
+
+[dependencies]
+libc = "0.2.169"
+ureq = { version = "2.6", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+psqlx_utils = { path = "../psqlx_utils" }
+psqlx_sys = { path = "../psqlx_sys" }
+log = "0.4"

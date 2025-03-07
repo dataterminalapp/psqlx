@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "src/psqlx",
+    "src/psqlx_utils",
+    "src/psqlx_ai",
+    "src/psqlx_example",
+    "src/psqlx_sys"
+]
+resolver = "3"

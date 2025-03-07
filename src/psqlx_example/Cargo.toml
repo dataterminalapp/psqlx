@@ -1,0 +1,13 @@
+[package]
+name = "psqlx_example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "psqlx_example"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.169"
+psqlx_utils = { path = "../psqlx_utils" }
+psqlx_sys = { path = "../psqlx_sys" }

@@ -1,0 +1,13 @@
+[package]
+name = "psqlx_utils"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "psqlx_utils"
+crate-type = ["rlib", "staticlib"]
+
+[dependencies]
+termion = "4.0.4"
+crossterm = "0.28.1"
+psqlx_sys = { path = "../psqlx_sys" }
